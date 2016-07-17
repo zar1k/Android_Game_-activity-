@@ -16,7 +16,6 @@ public class SplashActivity extends Activity {
         // Реклама
         AdBuddiz.setTestModeActive();
         AdBuddiz.setLogLevel(AdBuddizLogLevel.Info);
-//        AdBuddiz.setPublisherKey("8aa45a6c-3ee7-4871-83b9-e3d4bca2435e");
         AdBuddiz.setPublisherKey("TEST_PUBLISHER_KEY");
         AdBuddiz.cacheAds(this);
 
